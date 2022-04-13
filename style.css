@@ -2,6 +2,26 @@
     font-family: 'Inter', sans-serif;
 }
 
+col {
+    height: 100%;
+}
+
 h1 {
     font-weight: bolder;
+}
+
+.navBar {
+   color: red; 
+   
+}
+
+.navOption {
+    height: 100%;
+    transform: rotate(270deg);
+    background-color: gray;
+}
+
+#about {
+    height: 100%;
+    padding-top: 10%;
 }
