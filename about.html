@@ -21,16 +21,23 @@
 
 <body>
 
+    <canvas class="background" id="renderSurface"></canvas>
+    <script>
+        const canvas = document.getElementById('renderSurface');
+        let myFluid = new Fluid(canvas);
+        myFluid.activate();
+    </script>
+
     <div class="row">
         <!-- nav bar -->
         <div class="col-1">
             <div class="navBar">
                 
-                <div class="row">
-                    <h1 class="navOption">option 1</h1>
+                <div class="row" id="navOption">
+                    <h1 class="navText">option 1</h1>
                 </div>
-                <div class="row">
-                    <h1 class="navOption">option 2</h1>
+                <div class="row" id="navOption">
+                    <h1 class="navText">option 2</h1>
                 </div>
 
             </div>
@@ -38,7 +45,7 @@
 
         <!-- animated skill graphic -->
         <div class="col-6">
-            skill animation
+            SKILLS
         </div>
 
         <div class="col-4" id="about">
@@ -57,7 +64,9 @@
         </div>
     </div>
 
+
     
+
 </body>
 
 </html>

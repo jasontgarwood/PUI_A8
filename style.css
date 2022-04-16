@@ -2,6 +2,19 @@
     font-family: 'Inter', sans-serif;
 }
 
+body {
+    margin: 0;
+    background: url('your_transparent.png');
+  }
+  
+canvas {
+    z-index:1; 
+    position:absolute;
+    left:0;
+    top:0;
+    opacity: 80%
+  }
+
 col {
     height: 100%;
 }
@@ -15,13 +28,17 @@ h1 {
    
 }
 
-.navOption {
-    height: 100%;
-    transform: rotate(270deg);
+#navOption {
+    height: 50vh; 
+    writing-mode: vertical-rl;
     background-color: gray;
+    margin:0%;
 }
+
+
 
 #about {
     height: 100%;
     padding-top: 10%;
 }
+
