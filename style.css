@@ -4,14 +4,14 @@
 
 body {
     margin: 0;
-    background: url('your_transparent.png');
   }
   
 canvas {
-    z-index:1; 
     position:absolute;
     left:0;
     top:0;
+    width: 1000px;
+    height: 1000px;
     opacity: 80%
   }
 
