@@ -6,14 +6,6 @@ body {
     margin: 0;
   }
   
-canvas {
-    position:absolute;
-    left:0;
-    top:0;
-    width: 1000px;
-    height: 1000px;
-    opacity: 80%
-  }
 
 col {
     height: 100%;
@@ -36,9 +28,13 @@ h1 {
 }
 
 
-
 #about {
     height: 100%;
     padding-top: 10%;
 }
 
+#renderSurface {
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+}
