@@ -1,18 +1,23 @@
-console.log("working")
-console.log(document.getElementById("waveText"))
+
+console.log("working");
+//console.log(document.getElementById("waveText"));
 
 
+window.onload = function() {
+  var waveText = document.getElementById("waveText");
+  var waveLetters= waveText.children;
+  console.log(waveLetters);
 
-var waveText = document.getElementById("waveText");
-var waveLetters= waveText.children;
-
-
-
-for (var i = 0; i < waveLetters.length; i++) {
-  var currChild = waveLetters[i];
-  var delay = toString(i/2);
-  currChild.style = "animation-delay:" +delay+ "s;";
+  for (var i = 0; i < waveLetters.length; i++) {
+    var currChild = waveLetters[i];
+    var delay = i/4;
+    currChild.style = "animation-delay:" +delay+ "s;";
+  }
 }
+
+
+
+
 
 
 

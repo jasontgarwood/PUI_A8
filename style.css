@@ -1,12 +1,11 @@
 *{
-    font-family: 'Inter', sans-serif;
+    font-family: Arial;
 }
 
 body {
     margin: 0;
   }
   
-
 col {
     height: 100%;
 }
@@ -21,6 +20,10 @@ h1 {
     height: 15vw;
     margin: 1vw;
     opacity: 80%;
+}
+
+#centeredCol {
+    height: 100%;
 }
 
 .coverPhoto img:hover {
@@ -64,15 +67,15 @@ h1 {
 
 
 
-
-
 span{
-    animation: mover 6s linear infinite;
+    animation: mover 3s linear infinite;
     display: inline-block;
     color: black;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 3vw;
+    margin-bottom: 3vh;
 }
+
 @keyframes mover
 {
     0%{
