@@ -1,29 +1,17 @@
 console.log("working")
-
-$("#navOption").hover( function() {
-    console.log('entered');
-    $(this).css("color","black");
-}, function() {
-    console.log('left');
-    $(this).css("color","gray");
-});
-
-$(".coverPhoto").hover( function() {
-    console.log('entered');
-    $(this).css("opacity","100%");
-}, function() {
-    console.log('left');
-    $(this).css("opacity","80%");
-});
+console.log(document.getElementById("waveText"))
 
 
-var waveLetters = document.getElementById('waveText').children;
+
+var waveText = document.getElementById("waveText");
+var waveLetters= waveText.children;
+
 
 
 for (var i = 0; i < waveLetters.length; i++) {
   var currChild = waveLetters[i];
-  currChild.style = 
-  // Do stuff
+  var delay = toString(i/2);
+  currChild.style = "animation-delay:" +delay+ "s;";
 }
 
 
