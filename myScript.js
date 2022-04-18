@@ -1,8 +1,3 @@
-
-console.log("working");
-//console.log(document.getElementById("waveText"));
-
-
 window.onload = function() {
   var waveText = document.getElementById("waveText");
   var waveLetters= waveText.children;
@@ -14,12 +9,3 @@ window.onload = function() {
     currChild.style = "animation-delay:" +delay+ "s;";
   }
 }
-
-
-
-
-
-
-
-
-
