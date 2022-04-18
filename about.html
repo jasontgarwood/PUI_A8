@@ -16,7 +16,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- Google font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Space+Mono&display=swap">
-   
+    <!-- Fluid Simulation -->
+    <script src="https://cdn.jsdelivr.net/npm/fluid-canvas@latest"></script> 
 </head>
 
 <body>
@@ -40,7 +41,19 @@
         <!-- animated skill graphic -->
         <div class="col-6">
             
-            SKILLS
+            
+            <canvas id="renderSurface"></canvas>
+            <script>
+            const canvas = document.getElementById('renderSurface');
+            const myFluid = new Fluid(canvas);
+            myFluid.activate();
+            //document.body.style.background = 'url(' + canvas .toDataURL() + ')';
+            </script>
+
+
+
+
+            
 
             
             
@@ -51,9 +64,29 @@
         </div>
 
         <div class="col-4" id="about">
-            <h1>JASON GARWOOD</h1>
+
+            <div id="waveText">
+                <span>J</span>
+                <span>A</span>
+                <span>S</span>
+                <span>O</span>
+                <span>N</span>
+                <span></span>
+                <span>G</span>
+                <span>A</span>
+                <span>R</span>
+                <span>W</span>
+                <span>O</span>
+                <span>O</span>
+                <span>D</span>
+            </div>
+            
+
+
+
+
             <br>
-            <p>I am currently a fourth-year student studying Architecture and 
+            <p>I am a rising fifth-year student studying Architecture and 
                 Human-Computer Interaction at Carnegie Mellon University. Why 
                 am I studying architecture? The answer is simple and broad: 
                 the people. I am drawn to people that make, debate, understand, 

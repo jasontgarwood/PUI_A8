@@ -15,3 +15,18 @@ $(".coverPhoto").hover( function() {
     console.log('left');
     $(this).css("opacity","80%");
 });
+
+
+var waveLetters = document.getElementById('waveText').children;
+
+
+for (var i = 0; i < waveLetters.length; i++) {
+  var currChild = waveLetters[i];
+  currChild.style = 
+  // Do stuff
+}
+
+
+
+
+
