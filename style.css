@@ -1,3 +1,4 @@
+/* General Style */ 
 *{
     font-family: Arial;
 }
@@ -14,6 +15,7 @@ h1 {
     font-weight: bolder;
 }
 
+/* Gallery (index) Page */ 
 .coverPhoto {
     object-fit: cover;
     width: 15vw;
@@ -54,15 +56,43 @@ h1 {
     color: black;
 }
 
-#about {
-    height: 100%;
-    padding-top: 10%;
-}
-
 #renderSurface {
     width: 100%;
     height: 100vh;
     z-index: -500!important;
+}
+
+/* Detail Page */ 
+#titleBlock {
+    width: 100%;
+    white-space: nowrap;
+    padding: 3vw;
+}
+
+#exitButton {
+    width: 50%;
+    text-align: right;
+    display: inline-block; 
+}
+
+#detailTitle {
+    width: 50%;
+    display: inline-block; 
+}
+
+.coverPhoto {
+    object-fit: cover;
+    width: 20vw;
+    height: 20vw;
+    margin: 0px;
+    opacity: 80%;
+    margin: 1vw;
+}
+
+/* About Page */ 
+#about {
+    height: 100%;
+    padding-top: 10%;
 }
 
 span{
