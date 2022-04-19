@@ -80,7 +80,7 @@ h1 {
     display: inline-block; 
 }
 
-.coverPhoto {
+.detailPhoto {
     object-fit: cover;
     width: 20vw;
     height: 20vw;
