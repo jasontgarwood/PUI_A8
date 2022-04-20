@@ -68,7 +68,6 @@ h1 {
     left: 8vw;
     right: 0;
     top: 10vh;
-
 }
 
 #centeredCol {
@@ -83,8 +82,6 @@ h1 {
 }
 
 #exitButton {
-    left:-80px;
-
     display: inline-block; 
 }
 
@@ -95,20 +92,22 @@ h1 {
 
 #detailTitle {
     width: 100%;
-    margin-left:10vw;
+    margin-left:5vw;
+    margin-bottom: 1vw;
     display: inline-block; 
 }
 
 .detailPhoto {
     object-fit: cover;
-    width: 30vw;
-    height: 30vw;
+    width: 35vw;
+    height: 35vw;
     margin: 0px;
-    margin-left:10vw;
+    margin-left:5vw;
     opacity: 80%;
 }
 
 #description {
+    margin-top:10vh;
     margin-right: 20vw;
     font-size:larger;
 }
