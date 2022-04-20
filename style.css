@@ -20,7 +20,14 @@ h1 {
     object-fit: cover;
     height: 100%;
     width: 100%;
-    opacity: 80%;
+    opacity: 40%;
+    padding-top: 3vh;
+    filter: drop-shadow(3px 3px 10px rgb(72, 72, 72));
+}
+
+.coverPhoto:hover {
+    opacity: 100%;
+    filter: drop-shadow(3px 3px 10px rgb(104, 104, 104));
 }
 
 #gallery {
@@ -29,13 +36,11 @@ h1 {
     margin-right: auto;
     left: 8vw;
     right: 0;
-    top: 15vh;
+    top: 10vh;
 
 }
 
-.coverPhoto img:hover {
-    opacity: 100%;
-}
+
 
 #centeredCol {
     height: 100%;   
