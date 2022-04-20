@@ -1,6 +1,6 @@
 /* General Style */ 
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial;
 }
 
 body {
@@ -23,6 +23,8 @@ h1 {
 
 /* Navagation Bar */ 
 .navItem {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
     height: 50vh; 
     margin:0%;
     padding-top: 15vh;
@@ -30,17 +32,12 @@ h1 {
 }
 
 #navOption {
-    writing-mode: vertical-rl;
     background-color: #BBBBBB;
-    color: #3d3d3d;
     font-weight: lighter;
 }
 
 #navSelected {
-    writing-mode: vertical-rl;
-    color:black;
     text-decoration: underline;
-
 }
 
 #navOption:hover {
