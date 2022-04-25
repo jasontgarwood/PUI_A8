@@ -22,18 +22,20 @@ The target audience is fellow visual artists who are looking to see different ty
 ## C. USING THE WEBSITE
 
 Switching between the gallery and about pages
-*Fixed location menu, click.
-*On the stationary navigation bar (lefthand side of the screen) click on “about” to see the about page and “gallery” to see the gallery page. The text style on the navigation bar will update to show what page the user currently has selected and which is clickable.
+* Fixed location menu, click.
+* On the stationary navigation bar (lefthand side of the screen) click on “about” to see the about page and “gallery” to see the gallery page. The text style on the navigation bar will update to show what page the user currently has selected and which is clickable.
 
 Viewing a project detail page
--Button/image, click.
--On the gallery page, hover over an image to see it with full opacity, click it to open its respective detail page
+* Button/image, click.
+* On the gallery page, hover over an image to see it with full opacity, click it to open its respective detail page
+
 Closing a project detail page
-Button/image, click.
-On the detail page, click the “X” button on the top right of the screen to return to the gallery page. The “X” button will turn red while hovering to let the user know it is clickable.
+* Button/image, click.
+* On the detail page, click the “X” button on the top right of the screen to return to the gallery page. The “X” button will turn red while hovering to let the user know it is clickable.
+
 Interacting with the animated canvas
-Canvas, space bar, click and drag.
-On the gallery or about page, press the space bar to generate a red blob on the canvas. Additionally, the user can click and drag anywhere on the empty canvas space to generate an interactive fluid animation.
+* Canvas, space bar, click and drag.
+* On the gallery or about page, press the space bar to generate a red blob on the canvas. Additionally, the user can click and drag anywhere on the empty canvas space to generate an interactive fluid animation.
 
 ## D. EXTERNAL LIBRARIES
 Bootstrap
