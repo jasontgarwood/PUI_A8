@@ -20,6 +20,10 @@ To have the experience of this gallery be engaging, the background becomes an in
 The target audience is fellow visual artists who are looking to see different types of work and learn from one another. This includes students and art aficionados. As a tool for showing off work, this project could be expanded to show more projects and different creations.
 
 ## C. USING THE WEBSITE
+
+Order Lists:
+Item 1Item 2Item 3Item 4Item 5 
+
 Switching between the gallery and about pages
 Fixed location menu, click.
 On the stationary navigation bar (lefthand side of the screen) click on “about” to see the about page and “gallery” to see the gallery page. The text style on the navigation bar will update to show what page the user currently has selected and which is clickable.
