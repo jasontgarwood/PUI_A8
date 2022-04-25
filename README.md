@@ -22,8 +22,8 @@ The target audience is fellow visual artists who are looking to see different ty
 ## C. USING THE WEBSITE
 
 Switching between the gallery and about pages
--Fixed location menu, click.
--On the stationary navigation bar (lefthand side of the screen) click on “about” to see the about page and “gallery” to see the gallery page. The text style on the navigation bar will update to show what page the user currently has selected and which is clickable.
+*Fixed location menu, click.
+*On the stationary navigation bar (lefthand side of the screen) click on “about” to see the about page and “gallery” to see the gallery page. The text style on the navigation bar will update to show what page the user currently has selected and which is clickable.
 
 Viewing a project detail page
 -Button/image, click.
