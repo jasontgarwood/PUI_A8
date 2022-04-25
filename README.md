@@ -47,7 +47,6 @@ Using the library, this design applies the fluid simulation to a canvas element 
 Together with bootstrap the animation adds responsive interactivity that layers a clean organization strategy with a free flowing animation. These libraries add personality, tone, and experiential value to the design. 
 
 ## E. ITERATION FROM A7
-Describe how you iterated on your HW7 mockups, if at all, including any changes you made to your original design while you were implementing your website. (2-4 sentences max)
 Many of the iterations made during implementation were minor style and organizational changes. For example, the gallery images were resized so the interactive background could play a larger role in the user experience. Additionally, the about page now includes more information such as the link to a larger collection of work for those interested. 
 
 
