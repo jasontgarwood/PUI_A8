@@ -21,15 +21,13 @@ The target audience is fellow visual artists who are looking to see different ty
 
 ## C. USING THE WEBSITE
 
-Order Lists:
-Item 1Item 2Item 3Item 4Item 5 
-
 Switching between the gallery and about pages
-Fixed location menu, click.
-On the stationary navigation bar (lefthand side of the screen) click on “about” to see the about page and “gallery” to see the gallery page. The text style on the navigation bar will update to show what page the user currently has selected and which is clickable.
+-Fixed location menu, click.
+-On the stationary navigation bar (lefthand side of the screen) click on “about” to see the about page and “gallery” to see the gallery page. The text style on the navigation bar will update to show what page the user currently has selected and which is clickable.
+
 Viewing a project detail page
-Button/image, click.
-On the gallery page, hover over an image to see it with full opacity, click it to open its respective detail page
+-Button/image, click.
+-On the gallery page, hover over an image to see it with full opacity, click it to open its respective detail page
 Closing a project detail page
 Button/image, click.
 On the detail page, click the “X” button on the top right of the screen to return to the gallery page. The “X” button will turn red while hovering to let the user know it is clickable.
