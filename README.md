@@ -36,6 +36,7 @@ On the gallery or about page, press the space bar to generate a red blob on the 
 ## D. EXTERNAL LIBRARIES
 Bootstrap
 https://getbootstrap.com/ 
+
 Fluid.JS
 https://github.com/malik-tillman/Fluid-JS 
 
