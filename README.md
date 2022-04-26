@@ -2,7 +2,7 @@
 
 ## A.  IMPORTANT LINKS
 Walkthrough Video: 
-Link to YOUTUBE
+https://youtu.be/l8BoBkjwdEo  
 
 Figma Prototypes: https://www.figma.com/file/m6y2yiFAOZpL1PMILn5926/PUI_jgarwood_final?node-id=2%3A7 
 
